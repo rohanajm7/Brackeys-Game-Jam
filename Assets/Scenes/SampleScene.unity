@@ -199,8 +199,8 @@ GameObject:
   - component: {fileID: 74872254}
   - component: {fileID: 74872253}
   - component: {fileID: 74872252}
-  m_Layer: 5
-  m_Name: Image
+  m_Layer: 8
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -404,7 +404,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1000
-  jumpSpeed: 1500
+  jumpSpeed: 3000
+  PlatformLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!61 &745778060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -660,7 +663,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1000
-  jumpSpeed: 1500
+  jumpSpeed: 3000
+  PlatformLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1197085995
 GameObject:
   m_ObjectHideFlags: 0
